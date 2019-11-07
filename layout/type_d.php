@@ -43,7 +43,7 @@
     .header{
         display: flex;
         align-items: center;
-        background-color:lightslategray;
+        background-color: lightgoldenrodyellow;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
         padding:1rem 2rem;
@@ -97,7 +97,13 @@
     <div class="container">
         <div class="header">
             <div class="img">
-                <img src="./data-file/<?=$_SESSION['photo_name']?>" alt="123">
+<?php
+if(!empty($_SESSION['photo_name'])){
+    echo '<img src="./data-file/'.$_SESSION['photo_name'].'" alt="'.$_SESSION['photo_name'].'">';
+}else{
+    echo '<img src="./img/none.jpg" alt="未設置頭像">';
+}
+?>
             </div>
             <div class="text">
                 <div class="name"><h2><?=$_SESSION['username']?></h2></div>
