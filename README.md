@@ -1,6 +1,4 @@
-# [Welcom Vcard](http://nikedin.synology.me/php/vcard_v1/)
-> http://220.128.133.15/s1080417/01_PHP_vCard/
-
+# [Welcom Vcard](http://220.128.133.15/s1080417/01_PHP_vCard/)
 ## INDEX FORM:
 index.php
 ![](https://i.imgur.com/6Lss1k8.jpg)
